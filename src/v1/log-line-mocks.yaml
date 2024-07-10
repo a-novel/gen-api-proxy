@@ -1,0 +1,27 @@
+create:
+  success:
+    status: 200,
+    result: >
+      In a future where Earth teeters on the brink of collapse, visionary scientist Taima spearheads a daring mission to 
+      establish humanity’s first utopian colony on a distant exoplanet, navigating alien ecosystems, rogue AI factions, 
+      and the moral quandaries of genetic enhancement, all while striving to create a harmonious, tech-driven society 
+      that could redefine human existence.
+  badRequest:
+    status: 400,
+    error: Error bad request
+  internal:
+    status: 500,
+    error: Error internal
+
+validate:
+  success:
+    status: 204
+  invalid:
+    status: 422,
+    error: Error unprocessable entity
+  badRequest:
+    status: 400,
+    error: Error bad request
+  internal:
+    status: 500,
+    error: Error internal
